@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm run start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Giovani <giovanijfc@gmail.com>",
@@ -12,6 +13,10 @@
     "express": "^4.15.2",
     "socket.io": "^2.3.0"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "engines": {
     "node": "12.14.1"
   }
