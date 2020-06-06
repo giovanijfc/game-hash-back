@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/Cellar/node@10/10.20.1_1/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js start
+
+PATH: 
+  /usr/local/opt/node@10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/giovanijose/Library/Android/sdk/emulator:/Users/giovanijose/Library/Android/sdk/tools:/Users/giovanijose/Library/Android/sdk/tools/bin:/Users/giovanijose/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.20.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/giovanijose/Projects/game-hash-back/package.json: Unexpected token 
+   in JSON at position 445
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "game-hash-back",
+    "version": "1.0.0",
+    "description": "",
+    "main": "start.js",
+    "scripts": {
+      "start": "npm install && node start.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Giovani <giovanijfc@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.15.2",
+      "socket.io": "^2.3.0"
+    },
+    "keywords": [
+      "example",
+      "heroku"
+    ],
+    "engines": {
+      "node": "10.20.1
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,8 +1,8 @@
 {
-  "name": "chat-back",
+  "name": "game-hash-back",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "start.js",
   "scripts": {
     "start": "npm install && node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,8 +16,5 @@
   "keywords": [
     "example",
     "heroku"
-  ],
-  "engines": {
-    "node": "12.14.1"
-  }
+  ]
 }
